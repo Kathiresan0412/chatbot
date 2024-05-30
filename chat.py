@@ -20,10 +20,13 @@ def get_tabledata(tag):
         return f"Error occurred: {e}"
     finally:
         cursor.close()
+ 
+
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
 app.config['MYSQL_PASSWORD'] = '123456'
 app.config['MYSQL_DB'] = 'game'
+
 mysql = MySQL(app)
 def InsertData(UserWants):
     try:
@@ -109,7 +112,7 @@ def get_response(msg):
                     result1 = get_tabledata(17)
                     return result1
                 return random.choice(intent['responses'])     
-    result = InsertData(msg)
+        result = InsertData(msg)
     return result
 
 

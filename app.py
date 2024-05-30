@@ -1,5 +1,4 @@
 from flask import Flask, render_template, request, jsonify
-
 from chat import get_response
 from flask import Flask,redirect, session, flash
 from flask_mysqldb import MySQL
@@ -38,12 +37,10 @@ def signin():
      if request.method == 'POST':
         email = request.form['email']
         password = request.form['password']
-
         cur = mysql.connection.cursor()
         cur.execute("SELECT id, password FROM users WHERE email = %s", (email,))
         user = cur.fetchone()
         cur.close()
-
         if user and bcrypt.checkpw(password.encode('utf-8'), user[1].encode('utf-8')):
             session['user'] = user[0]
             flash("Login successful", "success")
@@ -51,7 +48,6 @@ def signin():
         else:
             flash("Invalid email or password", "danger")
             return redirect('/')
-
 @app.get("/dashboard")
 def index_get():
      return render_template("index.html")
