@@ -478,62 +478,62 @@
         "Game suggestions"
       ],
       "responses": [
-        "Sure, based on your preferences, I recommend checking out [Game Name]. It's [Brief Description].",
-        "Looking for a game? How about trying [Game Name]? It's [Brief Description].",
-        "If you're into [Genre], you might enjoy playing [Game Name]. It offers [Brief Description].",
-        "Here's a game suggestion: [Game Name]. It's [Brief Description].",
-        "Consider playing [Game Name]. It's [Brief Description]."
+        "Sure, based on your preferences, I recommend checking out pubg game. It's a mobile game and also in pc and console.",
+        "Looking for a game? How about trying  pubg game. It's a mobile game and also in pc and console..",
+        "If you're into teenager, you might enjoy playing  pubg game. It's a mobile game and also in pc and console.",
+        "Here's a game suggestion:  pubg game. It's a mobile game and also in pc and console.",
+        "Consider playing  pubg game. It's a mobile game and also in pc and console."
       ]
     },
     {
       "tag": "game_compatibility",
       "patterns": [
-        "Will [Game Name] run on my system?",
-        "Is my computer/console compatible with [Game Name]?",
-        "System requirements for [Game Name]",
-        "Can I play [Game Name] on [Platform]?",
+        "Will Pubg game run on my system?",
+        "Is my computer/console compatible with Pubg game?",
+        "System requirements for Pubg game",
+        "Can I play Pubg game on [Platform]?",
         "Game compatibility check"
       ],
       "responses": [
-        "You can check the system requirements for [Game Name] on its official website or on gaming platforms like Steam.",
-        "To find out if your system can run [Game Name], you can visit the game's official website for system requirements.",
-        "For information on game compatibility, you can visit the official website of [Game Name] or consult gaming forums for user experiences.",
-        "To determine if your system is compatible with [Game Name], you can check the system requirements listed on the game's store page.",
-        "Game compatibility varies based on your system specifications and the requirements of [Game Name]. It's best to check the official sources for accurate information."
+        "You can check the system requirements for Pubg game on its official website or on gaming platforms like Steam.",
+        "To find out if your system can run Pubg game, you can visit the game's official website for system requirements.",
+        "For information on game compatibility, you can visit the official website of Pubg game or consult gaming forums for user experiences.",
+        "To determine if your system is compatible with Pubg game, you can check the system requirements listed on the game's store page.",
+        "Game compatibility varies based on your system specifications and the requirements of Pubg game. It's best to check the official sources for accurate information."
       ]
     },
     {
       "tag": "game_modding",
       "patterns": [
-        "How can I mod [Game Name]?",
-        "Is [Game Name] moddable?",
-        "Modding tutorials for [Game Name]",
-        "Modding community for [Game Name]",
+        "How can I mod Pubg game?",
+        "Is Pubg game moddable?",
+        "Modding tutorials for Pubg game",
+        "Modding community for Pubg game",
         "Game modding resources"
       ],
       "responses": [
-        "To mod [Game Name], you can start by exploring modding forums and communities dedicated to the game.",
-        "Check out modding websites and forums for tutorials and resources on how to mod [Game Name].",
-        "For information on modding [Game Name], you can join modding communities and forums where users share their modding experiences and resources.",
-        "To get started with modding [Game Name], search for modding tutorials on websites like YouTube or dedicated modding forums.",
-        "Modding [Game Name] can enhance your gaming experience. Explore modding communities and forums to find resources and tutorials."
+        "To mod Pubg game, you can start by exploring modding forums and communities dedicated to the game.",
+        "Check out modding websites and forums for tutorials and resources on how to mod Pubg game.",
+        "For information on modding Pubg game, you can join modding communities and forums where users share their modding experiences and resources.",
+        "To get started with modding Pubg game, search for modding tutorials on websites like YouTube or dedicated modding forums.",
+        "Modding Pubg game can enhance your gaming experience. Explore modding communities and forums to find resources and tutorials."
       ]
     },
     {
       "tag": "game_trivia",
       "patterns": [
-        "Tell me some trivia about [Game Name]",
-        "Interesting facts about [Game Name]",
-        "Did you know about [Game Name]?",
-        "Fun facts about [Game Name]",
+        "Tell me some trivia about Pubg game",
+        "Interesting facts about Pubg game",
+        "Did you know about Pubg game?",
+        "Fun facts about Pubg game",
         "Game trivia"
       ],
       "responses": [
         "Did you know that [Fun Fact about Game Name]?",
         "Here's an interesting fact: [Fun Fact about Game Name].",
-        "In [Game Name], [Trivia].",
+        "In Pubg game, [Trivia].",
         "Fun fact: [Trivia about Game Name].",
-        "Here's a trivia about [Game Name]: [Trivia]."
+        "Here's a trivia about Pubg game: [Trivia]."
       ]
     },{
       "tag": "game_genre_info",
@@ -605,18 +605,18 @@
     },{
       "tag": "game_difficulty",
       "patterns": [
-        "How do I change the difficulty in [Game Name]?",
+        "How do I change the difficulty in Pubg game?",
         "Game difficulty settings",
         "Adjusting difficulty levels in games",
-        "Difficulty options in [Game Name]",
+        "Difficulty options in Pubg game",
         "Changing game difficulty"
       ],
       "responses": [
-        "To change the difficulty in [Game Name], you can usually find the option in the game settings menu under 'Gameplay' or 'Options'.",
-        "In [Game Name], you can adjust the difficulty by accessing the settings menu and selecting the desired difficulty level.",
-        "Changing the difficulty level in [Game Name] is typically done through the game settings menu, where you can choose from various difficulty options.",
-        "If you want to adjust the difficulty in [Game Name], navigate to the settings menu during gameplay and select your preferred difficulty setting.",
-        "For changing the difficulty in [Game Name], look for the settings menu where you can customize your gaming experience to match your skill level."
+        "To change the difficulty in Pubg game, you can usually find the option in the game settings menu under 'Gameplay' or 'Options'.",
+        "In Pubg game, you can adjust the difficulty by accessing the settings menu and selecting the desired difficulty level.",
+        "Changing the difficulty level in Pubg game is typically done through the game settings menu, where you can choose from various difficulty options.",
+        "If you want to adjust the difficulty in Pubg game, navigate to the settings menu during gameplay and select your preferred difficulty setting.",
+        "For changing the difficulty in Pubg game, look for the settings menu where you can customize your gaming experience to match your skill level."
       ]
     },
     {
@@ -646,11 +646,11 @@
         "Game innovation examples"
       ],
       "responses": [
-        "Games like [Game Name], [Game Name], and [Game Name] are known for their innovative gameplay mechanics and groundbreaking design.",
-        "The gaming industry continues to push the boundaries of innovation with titles like [Game Name], [Game Name], and [Game Name] that introduce new gameplay concepts and experiences.",
-        "Innovative game design can be seen in titles such as [Game Name], [Game Name], and [Game Name], which redefine genres and challenge traditional gaming conventions.",
-        "From immersive storytelling to unique gameplay mechanics, innovative games like [Game Name], [Game Name], and [Game Name] inspire creativity and push the medium forward.",
-        "Discover groundbreaking games that redefine the gaming landscape, such as [Game Name], [Game Name], and [Game Name], known for their innovation and creativity."
+        "Games like Pubg game, Pubg game, and Pubg game are known for their innovative gameplay mechanics and groundbreaking design.",
+        "The gaming industry continues to push the boundaries of innovation with titles like Pubg game, Pubg game, and Pubg game that introduce new gameplay concepts and experiences.",
+        "Innovative game design can be seen in titles such as Pubg game, Pubg game, and Pubg game, which redefine genres and challenge traditional gaming conventions.",
+        "From immersive storytelling to unique gameplay mechanics, innovative games like Pubg game, Pubg game, and Pubg game inspire creativity and push the medium forward.",
+        "Discover groundbreaking games that redefine the gaming landscape, such as Pubg game, Pubg game, and Pubg game, known for their innovation and creativity."
       ]
     },
     {
