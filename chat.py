@@ -32,7 +32,6 @@ app.config['MYSQL_DB'] = 'game'
 
 mysql = MySQL(app)
 
-
 def InsertData(UserWants):
     try:
         cursor = mysql.connection.cursor()
@@ -44,7 +43,6 @@ def InsertData(UserWants):
         return f"Error occurred: {e}"
     finally:
         cursor.close()
-
 
 app = Flask(__name__)
 
@@ -69,7 +67,6 @@ model.load_state_dict(model_state)
 model.eval()
 
 bot_name = "End Game"
-
 
 def get_response(msg):
     sentence = tokenize(msg)
