@@ -1,5 +1,16 @@
 {
-    "intents": [
+  "intents": [
+    {
+      "tag": "not",
+      "patterns": [
+        "no"
+     
+      ],
+      "responses": [
+        "poda majiru"
+
+      ]
+    },
       {
         "tag": "greeting",
         "patterns": [

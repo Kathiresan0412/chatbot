@@ -143,6 +143,47 @@
 	</section>
 	<!-- Intro section end -->
 	<!-- Blog section -->
+
+	<div class="chatbox">
+		<div class="chatbox__support">
+		  <div class="chatbox__header">
+			<div class="chatbox__image--header">
+			  <img
+				src="/static/images/bot (1).png"
+				alt="image"
+				width="50px"
+				;
+				height="60px"
+				;
+			  />
+			</div>
+			<div class="chatbox__content--header">
+			  <h4 class="chatbox__heading--header">End Gami Agent</h4>
+			  <p class="chatbox__description--header">
+				Hey. I'm End Gami. How can I help you?
+			  </p>
+			</div>
+		  </div>
+		  <div class="chatbox__messages">
+			<div></div>
+		  </div>
+		  <div class="chatbox__footer">
+			<input type="text" placeholder="Text with me..." />
+			<button class="chatbox__send--footer send__button">&#10148;</button>
+		  </div>
+		</div>
+		<div class="chatbox__button">
+		  <button>
+			<span>
+			  <img
+				src="{{ url_for('static', filename='images/bot (1).png') }}"
+				style="width: 38px; height: 38px"
+			  />
+			</span>
+			<span class="badge">1</span>
+		  </button>
+		</div>
+	  </div>
 	<section class="blog-section spad">
 		<div class="container">
 			<div class="row">
@@ -194,6 +235,7 @@
 					</div>
 				</div>
 				<div class="col-xl-3 col-lg-4 col-md-5 sidebar">
+				
 					<div id="stickySidebar">
 						<div class="widget-item">
 							<h4 class="widget-title">Trending</h4>
@@ -256,50 +298,12 @@
 					</div>
 					</div>
 				</div>
+				
 			</div>
 		</div>
 	</section>
 	<!-- Blog section end -->
-	<div class="chatbox">
-		<div class="chatbox__support">
-		  <div class="chatbox__header">
-			<div class="chatbox__image--header">
-			  <img
-				src="/static/images/bot (1).png"
-				alt="image"
-				width="50px"
-				;
-				height="60px"
-				;
-			  />
-			</div>
-			<div class="chatbox__content--header">
-			  <h4 class="chatbox__heading--header">End Gami Agent</h4>
-			  <p class="chatbox__description--header">
-				Hey. I'm End Gami. How can I help you?
-			  </p>
-			</div>
-		  </div>
-		  <div class="chatbox__messages">
-			<div></div>
-		  </div>
-		  <div class="chatbox__footer">
-			<input type="text" placeholder="Text with me..." />
-			<button class="chatbox__send--footer send__button">&#10148;</button>
-		  </div>
-		</div>
-		<div class="chatbox__button">
-		  <button>
-			<span>
-			  <img
-				src="{{ url_for('static', filename='images/bot (1).png') }}"
-				style="width: 38px; height: 38px"
-			  />
-			</span>
-			<span class="badge">1</span>
-		  </button>
-		</div>
-	  </div>
+	
 
 	<!-- Intro section -->
 	<section class="intro-video-section set-bg d-flex align-items-end " data-setbg="./static/img/promo-bg.jpg">

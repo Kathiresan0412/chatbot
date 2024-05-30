@@ -29,11 +29,14 @@ html {
 .chatbox {
   position: absolute;
   bottom: 30px;
+  z-index: 1;
+  padding-top:30px;
   right: 30px;
 }
 
 /* CONTENT IS CLOSE */
 .chatbox__support {
+
   display: flex;
   flex-direction: column;
   background: #eee;
@@ -121,6 +124,7 @@ html {
   padding: 15px 20px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+  z-index: 10;
   box-shadow: var(--primaryBoxShadow);
 }
 
