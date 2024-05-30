@@ -1,0 +1,93 @@
+Aboutus.css
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #1e203e;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.logo_image {
+  height: 100px;
+ 
+}
+
+.about_btn {
+  background-color: #ffc900;
+  color: #1e203e;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.content-body {
+  text-align: center;
+  padding: 20px;
+}
+
+.content-para {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.image_container {
+  padding: 20px;
+}
+
+.about_image {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+}
+
+.para_container {
+  padding: 20px;
+  max-width: 600px; 
+}
+
+.Para-body {
+  font-size: 18px;
+}
+
+.get_btn {
+  background-color: #ffc900;
+  color: #1e203e;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+@media (max-width: 768px) {
+  .main-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -1,0 +1,165 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day",
+          "Good morning!",
+          "Good eveing",
+          "hey there!",
+          "good after noon"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Good bye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+          {
+            "tag": "greeting",
+            "patterns": [
+              "Hi",
+              "Hey",
+              "How are you",
+              "Is anyone there?",
+              "Hello",
+              "Good day",
+              "Good morning!",
+              "Good evening",
+              "Hey there!",
+              "Good afternoon"
+            ],
+            "responses": [
+              "Hey :-)",
+              "Hello, thanks for visiting End Game",
+              "Hi there, what can I do for you?",
+              "Hi there, how can I help you with the latest game news?"
+            ]
+          },
+          {
+            "tag": "goodbye",
+            "patterns": [
+              "Bye",
+              "See you later",
+              "Good bye",
+              "Take care",
+              "Catch you later"
+            ],
+            "responses": [
+              "See you later, thanks for visiting End Game",
+              "Have a nice day",
+              "Bye! Come back again soon for more game news."
+            ]
+          },
+          {
+            "tag": "latest_news",
+            "patterns": [
+              "What's the latest game news?",
+              "Any new updates in the gaming world?",
+              "Tell me the latest gaming news",
+              "What's trending in games?",
+              "Latest game news"
+            ],
+            "responses": [
+              "Here's the latest news in the gaming world: https://endgame.com/latest-news",
+              "Check out the newest updates in gaming: https://endgame.com/gaming-updates",
+              "These are the trending topics in gaming right now: https://endgame.com/trending-games"
+            ]
+          },
+          {
+            "tag": "mobile_games",
+            "patterns": [
+              "What's new in mobile games?",
+              "Latest mobile games",
+              "Top mobile games",
+              "Best new mobile games",
+              "Trending mobile games"
+            ],
+            "responses": [
+              "Here are the latest mobile games: https://endgame.com/mobile-games",
+              "Check out these top new mobile games: https://endgame.com/top-mobile-games",
+              "These mobile games are trending: https://endgame.com/trending-mobile-games"
+            ]
+          },
+          {
+            "tag": "online_games",
+            "patterns": [
+              "What's new in online games?",
+              "Latest online games",
+              "Top online games",
+              "Best new online games",
+              "Trending online games"
+            ],
+            "responses": [
+              "Here are the latest online games: https://endgame.com/online-games",
+              "Check out these top new online games: https://endgame.com/top-online-games",
+              "These online games are trending: https://endgame.com/trending-online-games"
+            ]
+          },
+          {
+            "tag": "game_reviews",
+            "patterns": [
+              "Can I leave a review for a game?",
+              "How do I review a game?",
+              "I want to review a game",
+              "Game reviews",
+              "User reviews for games"
+            ],
+            "responses": [
+              "Sure, you can leave a review for a game here: https://endgame.com/review-section",
+              "Here's how you can review a game: https://endgame.com/review-guide",
+              "We value your feedback! Leave a review for your favorite game: https://endgame.com/review-form"
+            ]
+          },
+          {
+            "tag": "upcoming_games",
+            "patterns": [
+              "What's the upcoming games?",
+              "New games coming soon",
+              "Upcoming game releases",
+              "Future game releases",
+              "Games releasing soon"
+            ],
+            "responses": [
+              "Here are the upcoming games: https://endgame.com/upcoming-games",
+              "Check out these new games releasing soon: https://endgame.com/new-releases",
+              "Get excited for these upcoming game releases: https://endgame.com/future-releases"
+            ]
+          },
+          {
+            "tag": "streaming_news",
+            "patterns": [
+              "What's new in game streaming?",
+              "Latest game streaming news",
+              "Top game streamers",
+              "Best new game streams",
+              "Trending game streams"
+            ],
+            "responses": [
+              "Here's the latest in game streaming: https://endgame.com/streaming-news",
+              "Check out these top game streamers: https://endgame.com/top-streamers",
+              "These game streams are trending right now: https://endgame.com/trending-streams"
+            ]
+          }
+        ]
+      }
