@@ -529,11 +529,10 @@
         "Game trivia"
       ],
       "responses": [
-        "Did you know that [Fun Fact about Game Name]?",
-        "Here's an interesting fact: [Fun Fact about Game Name].",
-        "In Pubg game, [Trivia].",
-        "Fun fact: [Trivia about Game Name].",
-        "Here's a trivia about Pubg game: [Trivia]."
+        "Here's an interesting fact:In PUBG game, the iconic frying pan can be used as an improvised melee weapon as well as a tool to deflect bullets when used as a shield..",
+        "In Pubg game, The name PlayerUnknown that is part of the game's title refers to Brendan Greene's online nickname from his previous playerbase in other games.",
+        "Fun fact: The developers of PUBG initially thought the game would be a niche success, but it went on to sell over 75 million copies worldwide.",
+        "In PUBG game, players have to scavenge for weapons, armor, and supplies across the large open map to gain an advantage over opponents. Careful looting and inventory management are key to surviving the fierce battle royale."
       ]
     },{
       "tag": "game_genre_info",
@@ -545,11 +544,11 @@
         "Genre information"
       ],
       "responses": [
-        "There are several popular genres in gaming, including action, adventure, role-playing, strategy, simulation, sports, and puzzle games.",
-        "Gaming genres cover a wide range of interests, such as action, adventure, role-playing, strategy, simulation, sports, and puzzle games.",
-        "Common gaming genres include action, adventure, role-playing, strategy, simulation, sports, and puzzle games, each offering unique gameplay experiences.",
-        "Explore various gaming genres like action, adventure, role-playing, strategy, simulation, sports, and puzzle games to find your favorites!",
-        "From action-packed adventures to mind-bending puzzles, gaming genres like action, adventure, role-playing, strategy, simulation, sports, and puzzle games offer something for everyone."
+        "PlayerUnknown's Battlegrounds (PUBG) popularized the battle royale genre, where up to 100 players fight to be the last person standing on a shrinking map.",
+        "The battle royale genre, exemplified by PUBG, involves scavenging for weapons and gear before intense combat encounters to be the sole survivor.",
+        "One of the most popular gaming genres currently is battle royale, with PUBG being one of the pioneers that kicked off the craze.",
+        "In PUBG's battle royale gameplay, players parachute onto a large map and must use strategy and skill to outlast all other opponents.",
+        "The tense, high-stakes survival premise of PUBG's battle royale mode struck a chord with gamers and made the genre an international phenomenon."
       ]
     },
     {
