@@ -39,8 +39,9 @@ html {
 }
 
 .chatbox__messages {
-  height: 200px; /* Adjust height as needed */
+  height: 500px; /* Adjust height as needed */
   overflow-y: auto;
+  word-wrap:break-word;
 }
 
 .chatbox__button {
@@ -100,7 +101,7 @@ html {
   flex-direction: column;
   background: #eee;
   width: 300px;
-  height: 350px;
+  height: 580px;
   z-index: -123456;
   opacity: 0;
   transition: all 0.5s ease-in-out;
@@ -164,7 +165,7 @@ html {
 
 .chatbox__support  {
   background: #f9f9f9;
-  height: 450px;
+  height: 580px;
   width: 350px;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
   border-top-left-radius: 40px;
@@ -252,7 +253,12 @@ html {
 }
 
 .chatbox__send--footer {
-  color: white;
+  color: rgb(0, 0, 0);
+}
+.xxx {
+  display:flex;
+  color: red;
+
 }
 
 .chatbox__button button,

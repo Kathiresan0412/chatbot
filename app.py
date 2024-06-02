@@ -4,7 +4,6 @@ from flask import Flask, redirect, session, flash
 from flask_mysqldb import MySQL
 import bcrypt
 app = Flask(__name__)
-
 app.secret_key = "your_secret_key"
 # MySQL Configuration
 app.config['MYSQL_HOST'] = 'localhost'
@@ -13,11 +12,9 @@ app.config['MYSQL_PASSWORD'] = '123456'
 app.config['MYSQL_DB'] = 'game'
 mysql = MySQL(app)
 
-
 @app.route('/')
 def home():
     return render_template('index.html')
-
 
 @app.route('/signup', methods=['POST'])
 def signup():
@@ -36,8 +33,6 @@ def signup():
         cur.close()
         flash("Signup successful", "success")
         return redirect('/')
-
-
 @app.route('/signin', methods=['POST'])
 def signin():
     if request.method == 'POST':
@@ -55,51 +50,37 @@ def signin():
             flash("Invalid email or password", "danger")
             return redirect('/')
 
-
 @app.get("/dashboard")
 def index_get():
     return render_template("index.html")
 
-
 @app.get("/ex")
 def index_getex():
     return render_template("base.html")
-
 @app.route('/login')
 def login():
     return render_template('login.html')
 @app.route('/blog')
 def block():
     return render_template('blog.html')
-
-
 @app.route('/contact')
 def contact():
     return render_template('contact.html')
-
-
 @app.route('/game-single')
 def gameSingle():
     return render_template('game-single.html')
-
-
 @app.route('/games')
 def games():
     return render_template('games.html')
-
-
 @app.route('/review')
 def review():
     return render_template('review.html')
-
-
 @app.post("/predict")
 def predict():
     text = request.get_json().get("message")
     response = get_response(text)
     message = {"answer": response}
     return jsonify(message)
-
 
 if __name__ == "__main__":
     app.run(debug=True)

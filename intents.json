@@ -9,7 +9,7 @@
         "not at all",
         "negative"
       ],
-      "responses": [
+      "responses": [ 
         "poda majiru",
         "Alright, let me know if you need anything.",
         "Got it, feel free to ask anything else.",
@@ -34,7 +34,7 @@
         "Greetings"
       ],
       "responses": [
-        "Hey :-)",
+        "Hey How can i help you?",
         "Hello, thanks for visiting End Game",
         "Hi there, what can I do for you?",
         "Hi there, how can I help you with the latest game news?",
@@ -104,6 +104,38 @@
         "These are the trending topics in gaming right now: https://endgame.com/trending-games",
         "Stay updated with the latest game news here: https://endgame.com/latest-news",
         "Find the most recent game updates here: https://endgame.com/gaming-updates"
+      ]
+    },
+    {
+      "tag": "personal",
+      "patterns": [
+        "can you contact me?",
+        "contact me",
+        "call me",
+        "will call",
+        "I want to know about me",
+        "love you",
+        "fuck",
+        "anal"
+      ],
+      "responses": [
+        "I'm sorry, but I don't understand what you're asking. Could you please contact the Endgamei organization for more information? Hotline: 021-568-9548, Email: endgamei@agent.com, Website: https://endgamei.com."
+      ]
+    },
+    
+    {
+      "tag": "my_details",
+      "patterns": [
+        "who are you?",
+        "are ypu from",
+        "call me",
+        "will call",
+        "love you",
+        "fuck",
+        "anal"
+      ],
+      "responses": [
+        "I'm End Gamei ,your assistant, End Gamei organization is my boss,Website:https://endgamei.com."
       ]
     },
     {
@@ -616,23 +648,6 @@
         "Changing the difficulty level in Pubg game is typically done through the game settings menu, where you can choose from various difficulty options.",
         "If you want to adjust the difficulty in Pubg game, navigate to the settings menu during gameplay and select your preferred difficulty setting.",
         "For changing the difficulty in Pubg game, look for the settings menu where you can customize your gaming experience to match your skill level."
-      ]
-    },
-    {
-      "tag": "game_speedrunning",
-      "patterns": [
-        "What is speedrunning?",
-        "Tell me about speedruns",
-        "Speedrunning community",
-        "Speedrun techniques",
-        "Speedrunning events"
-      ],
-      "responses": [
-        "Speedrunning is a community-driven challenge where players attempt to complete a game as quickly as possible using various strategies and glitches.",
-        "Speedrunning involves completing a game in the shortest time possible, often utilizing glitches, shortcuts, and precise gameplay techniques.",
-        "The speedrunning community consists of players who aim to achieve the fastest completion times for games through skillful play and optimization.",
-        "Speedrunners use advanced techniques, route planning, and precise execution to complete games in record time, often competing in speedrunning events and tournaments.",
-        "From glitch exploits to precise movement techniques, speedrunning pushes the limits of gaming skill and creativity in the pursuit of faster completion times."
       ]
     },
     {
